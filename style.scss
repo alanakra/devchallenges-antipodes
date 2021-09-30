@@ -61,6 +61,14 @@ a{
 
 }
 
+@media (min-width: 576px) {
+ footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+ }
+}
+
 // NAVBAR
 
 nav{
@@ -149,5 +157,14 @@ main{
 
  p{
   font-family: 'Lora-bold';
+ }
+}
+
+// FOOTER
+footer{
+ p{
+  font-family: 'Montserrat-medium';
+  text-align: center;
+  color: #A9A9A9;
  }
 }

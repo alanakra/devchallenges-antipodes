@@ -57,6 +57,14 @@ a {
   }
 }
 
+@media (min-width: 576px) {
+  footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -152,5 +160,11 @@ main {
 
 .tweet p {
   font-family: 'Lora-bold';
+}
+
+footer p {
+  font-family: 'Montserrat-medium';
+  text-align: center;
+  color: #A9A9A9;
 }
 /*# sourceMappingURL=style.css.map */
