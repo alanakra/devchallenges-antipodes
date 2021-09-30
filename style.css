@@ -45,6 +45,7 @@ a {
   }
   main .catchphrase {
     width: 100%;
+    margin-bottom: 1.25rem;
   }
   main .catchimages {
     width: 100%;
