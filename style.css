@@ -114,10 +114,15 @@ main {
 .catchphrase a {
   font-family: 'Montserrat-bold';
   font-size: 1.125rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.catchphrase a:hover {
+  text-decoration: underline;
 }
 
 .catchimages {
-  border: solid blue 2px;
   width: 65%;
 }
 
@@ -129,9 +134,7 @@ main {
 }
 
 .tweet {
-  border: solid blueviolet 2px;
-  width: 55%;
-  background-color: #181719;
+  width: 45%;
   z-index: 20;
 }
 

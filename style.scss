@@ -114,11 +114,15 @@ main{
  a{
   font-family: 'Montserrat-bold';
   font-size: 1.125rem;
+  transition: 1s;
+  
+  &:hover{
+   text-decoration: underline;
+  }
  }
 }
 
 .catchimages{
- border: solid blue 2px;
  width: 65%;
 
  .home-picture{
@@ -130,9 +134,7 @@ main{
 }
 
 .tweet{
- border: solid blueviolet 2px;
- width: 55%;
- background-color: #181719;
+ width: 45%;
  z-index: 20;
 
  .head-tweet{
