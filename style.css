@@ -1,6 +1,8 @@
 body {
   background-color: #181719;
   color: #FFFFFF;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 a:link, a:visited {
@@ -37,6 +39,10 @@ a {
 }
 
 @media (max-width: 575px) {
+  body {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
   main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
