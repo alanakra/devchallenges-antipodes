@@ -135,7 +135,6 @@ main {
 
 .tweet {
   width: 45%;
-  z-index: 20;
 }
 
 .tweet .head-tweet {
