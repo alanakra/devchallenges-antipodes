@@ -7,6 +7,31 @@ a:link, a:visited {
  color: white;
 }
 
+@font-face {
+ font-family: "Montserrat-medium";
+ src: url("./assets/fonts/Montserrat/Montserrat-Medium.woff") format("woff");
+}
+
+@font-face {
+ font-family: "Montserrat-light";
+ src: url("./assets/fonts/Montserrat/Montserrat-Light.woff") format("woff");
+}
+
+@font-face {
+ font-family: "Montserrat-bold";
+ src: url("./assets/fonts/Montserrat/Montserrat-Bold.woff") format("woff");
+}
+
+@font-face {
+ font-family: "Lora-medium";
+ src: url("./assets/fonts/Lora/Lora-Medium.woff") format("woff");
+}
+
+@font-face {
+ font-family: "Lora-bold";
+ src: url("./assets/fonts/Lora/Lora-Bold.woff") format("woff");
+}
+
 // NAVBAR
 
 nav{
