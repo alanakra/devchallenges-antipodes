@@ -124,6 +124,7 @@ main {
 
 .catchimages {
   width: 65%;
+  border: solid red 2px;
 }
 
 .catchimages .home-picture {
@@ -134,8 +135,13 @@ main {
 }
 
 .tweet {
-  width: 45%;
+  width: 35%;
   z-index: 20;
+  background-color: #181719;
+  border: solid red 2px;
+  position: fixed;
+  top: 650px;
+  right: 200px;
 }
 
 .tweet .head-tweet {
@@ -152,6 +158,10 @@ main {
 .tweet .head-tweet .title-tweet {
   margin-left: 1rem;
   line-height: 0;
+}
+
+.tweet .content-tweet {
+  font-size: 1.5rem;
 }
 
 .tweet p {
