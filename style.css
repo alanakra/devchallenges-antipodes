@@ -93,7 +93,8 @@ nav {
 
 .div-links {
   font-family: 'Montserrat-Medium';
-  width: 80%;
+  width: 40%;
+  margin-top: 1.25rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,6 +104,10 @@ nav {
   height: 100%;
   float: right;
   line-height: 100%;
+}
+
+.div-links a:hover {
+  text-decoration: underline;
 }
 
 main {

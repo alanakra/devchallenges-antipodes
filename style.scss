@@ -95,13 +95,17 @@ nav{
 
 .div-links{
  font-family: 'Montserrat-Medium';
- width: 80%;
-
-  display: flex;
-  justify-content: space-between;
-  height: 100%;
-  float: right;
-  line-height: 100%;
+ width: 40%;
+ margin-top: 1.25rem;
+ display: flex;
+ justify-content: space-between;
+ height: 100%;
+ float: right;
+ line-height: 100%;
+ 
+ a:hover{
+   text-decoration: underline;
+  }
 }
 
 // HOME MAIN
