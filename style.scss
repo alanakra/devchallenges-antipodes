@@ -81,10 +81,6 @@ nav{
  justify-content: space-between;
  height: 60px;
  width: 100%;
-
- ul{
-  list-style-type: none;
- }
 }
 
 .div-logo{
@@ -101,13 +97,11 @@ nav{
  font-family: 'Montserrat-Medium';
  width: 80%;
 
- ul{
   display: flex;
   justify-content: space-between;
   height: 100%;
   float: right;
   line-height: 100%;
- }
 }
 
 // HOME MAIN
