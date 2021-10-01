@@ -34,11 +34,16 @@ a:link, a:visited {
   src: url("./assets/fonts/Lora/Lora-Bold.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Crimson-extralight";
+  src: url("./assets/fonts/Crimson/CrimsonPro-ExtraLight.woff") format("woff");
+}
+
 a {
   text-decoration: none;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 850px) {
   body {
     margin-left: 16px;
     margin-right: 16px;
@@ -51,17 +56,17 @@ a {
   }
   main .catchphrase {
     width: 100%;
+    margin-bottom: 1.25rem;
   }
   main .catchimages {
     width: 100%;
   }
 }
 
-@media (min-width: 576px) {
-  footer {
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
+@media (min-width: 950px) {
+  .tweet {
+    width: 410px;
+    height: 189px;
   }
 }
 
@@ -69,6 +74,9 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 60px;
   width: 100%;
 }
@@ -77,12 +85,18 @@ nav ul {
   list-style-type: none;
 }
 
+.div-logo {
+  font-family: 'Crimson-extralight';
+  margin-top: 1.25rem;
+}
+
 .div-logo a {
   border: solid 1px;
   padding: 8px;
 }
 
 .div-links {
+  font-family: 'Montserrat-Medium';
   width: 80%;
 }
 
@@ -121,11 +135,17 @@ main {
 .catchphrase a {
   font-family: 'Montserrat-bold';
   font-size: 1.125rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.catchphrase a:hover {
+  text-decoration: underline;
 }
 
 .catchimages {
-  border: solid blue 2px;
   width: 65%;
+  position: relative;
 }
 
 .catchimages .home-picture {
@@ -136,10 +156,16 @@ main {
 }
 
 .tweet {
-  border: solid blueviolet 2px;
-  width: 55%;
+  width: 300px;
+  height: 138px;
+  z-index: 10;
   background-color: #181719;
-  z-index: 20;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  bottom: -20%;
+  right: 5%;
+  position: absolute;
+  padding: 1.625rem;
 }
 
 .tweet .head-tweet {
@@ -156,9 +182,15 @@ main {
 .tweet .head-tweet .title-tweet {
   margin-left: 1rem;
   line-height: 0;
+  font-family: 'Montserrat-medium';
 }
 
-.tweet p {
+.tweet .head-tweet .title-tweet .gray {
+  color: #828282;
+}
+
+.tweet .content-tweet {
+  font-size: 1.5rem;
   font-family: 'Lora-bold';
 }
 
