@@ -34,6 +34,11 @@ a:link, a:visited {
   src: url("./assets/fonts/Lora/Lora-Bold.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Crimson-extralight";
+  src: url("./assets/fonts/Crimson/CrimsonPro-ExtraLight.woff") format("woff");
+}
+
 a {
   text-decoration: none;
 }
@@ -62,6 +67,9 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 60px;
   width: 100%;
 }
@@ -70,12 +78,18 @@ nav ul {
   list-style-type: none;
 }
 
+.div-logo {
+  font-family: 'Crimson-extralight';
+  margin-top: 1.25rem;
+}
+
 .div-logo a {
   border: solid 1px;
   padding: 8px;
 }
 
 .div-links {
+  font-family: 'Montserrat-Medium';
   width: 80%;
 }
 
