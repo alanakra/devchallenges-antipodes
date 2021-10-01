@@ -125,6 +125,7 @@ main{
 .catchimages{
  width: 65%;
  border: solid red 2px;
+ position: relative;
 
  .home-picture{
   width: 100%;
@@ -135,13 +136,13 @@ main{
 }
 
 .tweet{
- width: 35%;
- z-index: 20;
+ width: 45%;
+ z-index: 10;
  background-color: #181719;
  border: solid red 2px;
- position: fixed;
- top: 650px;
- right: 200px;
+ bottom: -5% ;
+ right: -5%;
+ position: absolute;
 
  .head-tweet{
   display: flex;
