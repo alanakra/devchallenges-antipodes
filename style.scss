@@ -189,6 +189,10 @@ main{
 
 // FOOTER
 footer{
+ position: fixed;
+ width: 100%;
+ bottom: 0;
+
  p{
   font-family: 'Montserrat-medium';
   text-align: center;

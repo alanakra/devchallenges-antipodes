@@ -194,6 +194,12 @@ main {
   font-family: 'Lora-bold';
 }
 
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
 footer p {
   font-family: 'Montserrat-medium';
   text-align: center;
