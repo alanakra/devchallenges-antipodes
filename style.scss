@@ -71,6 +71,7 @@ a{
 
 nav{
  display: flex;
+ justify-content: space-between;
  height: 60px;
  width: 100%;
 
@@ -80,6 +81,9 @@ nav{
 }
 
 .div-logo{
+ font-family: 'Crimson-extralight';
+ margin-top: 1.25rem;
+
  a{
   border: solid 1px;
   padding: 8px;
@@ -87,6 +91,7 @@ nav{
 }
 
 .div-links{
+ font-family: 'Montserrat-Medium';
  width: 80%;
 
  ul{
