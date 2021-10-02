@@ -79,6 +79,10 @@ a{
   .menu{
     display: none;
   }
+
+  .nav-responsive{
+    display: none !important;
+  }
 }
 
 @media (min-width: 950px) {
