@@ -66,9 +66,19 @@ a{
  }
 
  .div-links{
-  display: none;
+   display: none !important;
  }
 
+ .menu{
+   display: block;
+ }
+
+}
+
+@media (min-width: 851px) {
+  .menu{
+    display: none;
+  }
 }
 
 @media (min-width: 950px) {
@@ -114,7 +124,7 @@ nav{
 
 //NAVBAR SMARTPHONE
 .menu{
- display: none;
+ margin-top: 1.2rem;
 }
 
 .nav-responsive{
