@@ -4,9 +4,10 @@ $(document).ready(() => {
  $('.close').hide();
  
  $('.menu').on('click', () => {
-   $('main').toggle()
+   $('main').toggle();
    $('.nav-responsive').toggle();
    $('.close').toggle();
    $('.menu-icon').toggle();
+   $('footer').toggle();
  })
 })
